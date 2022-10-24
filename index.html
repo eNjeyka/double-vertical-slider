@@ -4,11 +4,45 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
         <link rel="stylesheet" href="styles.css" />
         <script src="script.js" defer></script>
         <title>Double Vertical Slider</title>
     </head>
     <body>
-        <h1>hi</h1>
+        <div class="slider-container">
+            <div class="left-slide">
+                <div style="background-color: #fd3555;">
+                    <h1>Nature flower</h1>
+                    <p>all in pink</p>
+                </div>
+                <div style="background-color: #2a86ba;">
+                    <h1>Blue Sky</h1>
+                    <p>with it's mountains</p>
+                </div>
+                <div style="background-color: #252e33;">
+                    <h1>Lonely castly</h1>
+                    <p>in the wilderness</p>
+                </div>
+                <div style="background-color: #ffb866;">
+                    <h1>Flying eagle</h1>
+                    <p>in the sinset</p>
+                </div>
+            </div>
+            <div class="right-slide">
+                <div style="background-image: url('src/bg1.png');"></div>
+                <div style="background-image: url('src/bg2.png');"></div>
+                <div style="background-image: url('src/bg3.png');"></div>
+                <div style="background-image: url('src/bg4.png');"></div>
+            </div>
+            <div class="action-buttons">
+                <button class="down-button">
+                    <i class="fas fa-arrow-down"></i>
+                </button>
+                <button class="up-button">
+                    <i class="fas fa-arrow-up"></i>
+                </button>
+            </div>
+        </div>
     </body>
 </html>
